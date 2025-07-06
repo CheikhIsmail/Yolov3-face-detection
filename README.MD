@@ -8,33 +8,14 @@ This project implements a YOLOv3-based face detector using PyTorch for training 
 
 - YOLOv3 architecture for face detection
 - Training and evaluation in PyTorch (`YOLO_v3_ONNX_exp.py`)
+- Result visualization and saving
 - ONNX export for fast inference
 - Real-time webcam detection with OpenCV (`detect_vid.py`)
-- Result visualization and saving
+- Real-time image detection with OpenCV (`detect_img.py`)
+
 
 ---
 
-## Directory Structure
-
-```
-ANNFINAL/
-├── YOLO_v3_ONNX_exp.py      # Training, evaluation, and ONNX export
-├── detect_img.py            # Real time image detection using ONNX
-├── detect_vid.py            # Real-time webcam detection using ONNX
-├── checkpoint.pth           # Trained PyTorch model weights
-├── YOLO_v3_faces_fixed.onnx # Exported ONNX model
-├── results/                 # Saved test images with predictions
-└── data/
-    └── faces/
-        ├── train/
-        │   ├── images/
-        │   └── labels/
-        └── val/
-            ├── images/
-            └── labels/
-```
-
----
 
 ## Getting Started
 
