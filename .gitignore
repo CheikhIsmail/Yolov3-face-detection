@@ -22,3 +22,5 @@ Thumbs.db
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+Yolov3-face-detection/
