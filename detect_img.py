@@ -7,7 +7,7 @@ model_path = 'YOLO_v3_faces_fixed.onnx'
 model = cv2.dnn.readNetFromONNX(model_path)
 
 # === Load image ===
-image = cv2.imread('380358.jpg')
+image = cv2.imread('.jpg')  # # # Replace with your image path
 image_height, image_width = image.shape[:2]
 
 # === Preprocess image ===
